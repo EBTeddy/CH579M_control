@@ -56,12 +56,16 @@
 #include "CH57x_usbhost.h"
 
 
-
-
   
 #define DelayMs(x)      mDelaymS(x)	  
 #define DelayUs(x)      mDelayuS(x)	  
 
+// GPIO定义
+#define PIN_RELAY_L1 GPIO_Pin_19
+
+// 硬件资源定义
+
+// 外设工作函数定义
 
 #ifdef __cplusplus
 }
